@@ -1,10 +1,10 @@
 package shopping;
 
-public class Shoe extends ClothingItem implements Sized, Colored {
+public class Glove extends ClothingItem implements Sized, Colored {
   private int size;
   private String color;
 
-  public Shoe(int size, String color) {
+  public Glove(int size, String color) {
     this.size = size;
     this.color = color;
   }
@@ -19,9 +19,10 @@ public class Shoe extends ClothingItem implements Sized, Colored {
 
   @Override
   public String toString() {
-    return "Shoe{" +
+    return "Glove {" +
         "size=" + size +
         ", color='" + color + '\'' +
         '}';
   }
+
 }
